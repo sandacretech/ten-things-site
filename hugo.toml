@@ -1,0 +1,17 @@
+baseURL = 'https://app.10things.io/'
+languageCode = 'en-gb'
+title = '10things'
+#theme = "hyde"  # Theme is accessed as a hugo module
+
+[params]
+  description = "Your shortcut to AI and the fastest path to answers."
+
+[Menus]
+  main = [
+      {Name = "Contact", URL = "/contact"},
+      {Name = "Privacy", URL = "/privacy"},
+  ]
+
+[module]
+  [[module.imports]]
+    path = "github.com/spf13/hyde"

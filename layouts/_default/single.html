@@ -1,0 +1,13 @@
+{{ define "main" -}}
+<div class="post">
+  <img src="/images/logo-128px.png" alt="10things" style="float: left; padding-right: 2rem;">
+  <h1>10things | {{ .Title }}</h1>
+  <span>Get 10 instant AI powered answers or suggestions to anything.</span>
+  <div style="clear: both;">{{ .Content }}</div>
+</div>
+
+{{ if .Site.Config.Services.Disqus.Shortname -}}
+<h2>Comments</h2>
+{{ template "_internal/disqus.html" . }}
+{{- end }}
+{{- end }}

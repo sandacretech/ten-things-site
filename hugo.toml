@@ -2,6 +2,7 @@ baseURL = 'https://app.10things.io/'
 languageCode = 'en-gb'
 title = '10things'
 #theme = "hyde"  # Theme is accessed as a hugo module
+publishDir = "docs"  # required for github pages
 
 [params]
   description = "Your shortcut to AI and the fastest path to answers."

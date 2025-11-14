@@ -22,7 +22,13 @@ The following steps were followed to set this site up:
     $ cd ten-things-site
     $ hugo mod init ten-things-site
 
-### Development
+### Theme
+
+The [Hyde](https://github.com/spf13/hyde) theme will automatically be installed as a `hugo` module when the server is started. See [this post](https://www.nickgracilla.com/posts/master-hugo-modules-managing-themes-as-modules/) for more information.
+
+Configuration options for `hugo.toml` are documented on the theme's [github page](https://github.com/spf13/hyde). Relevant html files were copied from the theme's `layouts` directory into `/layouts` and edited to customise the theme.
+
+### Development Server
 
 To start the development server:
 
@@ -30,8 +36,11 @@ To start the development server:
 
 The `/content/*.md` files can be edited and the server will auto refresh the page.
 
-### Theme
+### deployment
 
-The [Hyde](https://github.com/spf13/hyde) theme will automatically be installed as a hugo module when the server is started. See [this post](https://www.nickgracilla.com/posts/master-hugo-modules-managing-themes-as-modules/) for more information.
+To build the site, run:
 
-Configuration options for `hugo.toml` are documented on the theme's [github page](https://github.com/spf13/hyde). Relevant html files were copied from the theme's `layouts` directory into `/layouts` and edited to customise the theme.
+    $ hugo build
+    $ git push origin main
+
+This will place the static site into the `/docs` directory. The `git push` to github will set off the automatic deployment.

@@ -2,13 +2,16 @@
 
 ## Github Pages Setup
 
-- Set up DNS CNAME record for app.10things.io to point to sandacretech.github.io.
+- Set up DNS A records for 10things.io:
+  - 185.199.108.153, 185.199.109.153, 185.199.110.153, 185.199.111.153
+  - See https://docs.github.com/en/pages/configuring-a-custom-domain-for-your-github-pages-site/managing-a-custom-domain-for-your-github-pages-site#configuring-an-apex-domain
+  - Note that this is different to setting up a subdomain with a CNAME record.
 - Navigate to Settings > Pages:
   - Set build and deployment source = deploy from a branch, branch = main, folder = /docs.
   - Set custom domain as app.10things.io and perform DNS check.
   - Once TLS certificate has been created, check Enforce HTTPS.
 
-Now the site should be available at https://app.10things.io
+Now the site should be available at https://10things.io
 
 ## Hugo
 

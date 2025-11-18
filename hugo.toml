@@ -1,4 +1,4 @@
-baseURL = 'https://app.10things.io/'
+baseURL = 'https://10things.io/'
 languageCode = 'en-gb'
 title = '10Things'
 #theme = "hyde"  # Theme is accessed as a hugo module

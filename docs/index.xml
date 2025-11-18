@@ -2,24 +2,24 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Home on 10Things</title>
-    <link>https://app.10things.io/</link>
+    <link>https://10things.io/</link>
     <description>Recent content in Home on 10Things</description>
     <generator>Hugo</generator>
     <language>en-gb</language>
     <lastBuildDate>Wed, 16 Jul 2025 10:00:00 +0100</lastBuildDate>
-    <atom:link href="https://app.10things.io/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://10things.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Contact</title>
-      <link>https://app.10things.io/contact/</link>
+      <link>https://10things.io/contact/</link>
       <pubDate>Wed, 16 Jul 2025 10:00:00 +0100</pubDate>
-      <guid>https://app.10things.io/contact/</guid>
+      <guid>https://10things.io/contact/</guid>
       <description>&lt;p&gt;For further information or partnership opportunities please email:&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;mailto:mark@bhltd.co.uk&#34;&gt;mark@bhltd.co.uk&lt;/a&gt;&lt;/p&gt;</description>
     </item>
     <item>
       <title>Privacy</title>
-      <link>https://app.10things.io/privacy/</link>
+      <link>https://10things.io/privacy/</link>
       <pubDate>Wed, 16 Jul 2025 10:00:00 +0100</pubDate>
-      <guid>https://app.10things.io/privacy/</guid>
+      <guid>https://10things.io/privacy/</guid>
       <description>&lt;p&gt;Our app respects your privacy. We collect minimal data necessary for&#xA;functionality, including usage and device information. Data is securely&#xA;stored and never sold or shared without consent. You may request&#xA;deletion or review of your data anytime. By using our app, you agree to&#xA;this policy.&lt;/p&gt;</description>
     </item>
   </channel>

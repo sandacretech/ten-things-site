@@ -2,17 +2,17 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://app.10things.io/contact/</loc>
+    <loc>https://10things.io/contact/</loc>
     <lastmod>2025-07-16T10:00:00+01:00</lastmod>
   </url><url>
-    <loc>https://app.10things.io/</loc>
+    <loc>https://10things.io/</loc>
     <lastmod>2025-07-16T10:00:00+01:00</lastmod>
   </url><url>
-    <loc>https://app.10things.io/privacy/</loc>
+    <loc>https://10things.io/privacy/</loc>
     <lastmod>2025-07-16T10:00:00+01:00</lastmod>
   </url><url>
-    <loc>https://app.10things.io/categories/</loc>
+    <loc>https://10things.io/categories/</loc>
   </url><url>
-    <loc>https://app.10things.io/tags/</loc>
+    <loc>https://10things.io/tags/</loc>
   </url>
 </urlset>
